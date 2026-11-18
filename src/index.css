@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .font-mono-spec {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+}
+
+/* Figma canvas subtle dot grid */
+.figma-canvas-grid {
+  background-color: #E8ECF2;
+  background-image: radial-gradient(rgba(20, 33, 61, 0.12) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Clean mobile frame scrollbar */
+.mobile-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+.mobile-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.mobile-scroll::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.25);
+  border-radius: 9999px;
+}
+.mobile-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.45);
+}
+
+/* Tabular numbers utility */
+.tabular {
+  font-variant-numeric: tabular-nums;
+}

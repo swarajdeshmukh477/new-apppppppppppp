@@ -1,0 +1,6 @@
+{
+  "name": "Swaraj Print — Mobile UI/UX Design",
+  "description": "Complete 8-screen 390x844 mobile UI/UX design system and interactive Figma-style prototype for Swaraj Print document editing and printing platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
